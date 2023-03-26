@@ -45,8 +45,8 @@ export default function App({ Component, pageProps }) {
           </div>
         </nav>
       </section>
-      <Component {...pageProps}/>
       <Analytics />
+      <Component {...pageProps}/>
     </main>
     </>
   )
