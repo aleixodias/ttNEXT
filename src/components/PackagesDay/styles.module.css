@@ -1,0 +1,52 @@
+.title {
+  width: 100%;
+  color: rgb(84, 85, 90);
+  margin: 0;
+  padding: 2rem 0.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media(max-width:1024px){
+  .title{
+    font-size: 140%;
+  }
+}
+
+.PackageGrid {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1024px){
+  .imageTicket{
+    width: 30%;
+  }
+}
+
+@media(max-width:768px){
+  .imageTicket{
+    width: 47%;
+  }
+}
+
+@media(max-width:600px){
+  .imageTicket{
+    width: 100%;
+  }
+}
+
+.imageTicket:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px var(--box-shadow);
+  opacity: .80;
+}
+
+.imageResponsive {
+  max-width: 100vw;
+  height: fit-content;
+  transition: all 0.4s;
+}

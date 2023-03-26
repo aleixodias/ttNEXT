@@ -1,0 +1,12 @@
+.title {		
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.textRed {
+	color: red;
+}
+
+.fs-2 {
+	font-size: 2rem;
+}

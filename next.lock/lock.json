@@ -1,0 +1,14 @@
+{
+  "https://obj.cdn.theifriend.com/the-town/img-banner-desktop-aero-thetown-home.png": { "integrity": "sha512-M8YGS8Jl1zzI2oF5U/XKu2ebIQ9YWVEJyTim7eDKRMf/VX670JiGaTl01a+hNuvIqe1Sn7u6qdXCYuUi7WmPxw==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/img-banner-mobile-aero-thetown-home.png": { "integrity": "sha512-WWX3K7OsJMLc6jgdlO+wuhhf0N3ChuPlyn2sBpQoE+T9sUvzEvTf0RU0MPiYcbD3NtFLMBL07Z7hPIJqKSzw8g==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/img-banner-thetown-home-mobile.png": { "integrity": "sha512-d/gfNqSJTTwD45oMLey6SinvQnvrSDK25QYHSK87FvMyDXpHrpUrek6wMnPD19WVvXBG4zhhXWNA+InT9S+wRA==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/img-banner-thetown-home.png": { "integrity": "sha512-Sdsp6W8RJPcqchtwS4jWVAxqEze1hB2aw7npJdqXiE0D0E8L8XseOdhlEclkPUQwB2IprpSwaLdKInZGBB4cyg==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-01.png": { "integrity": "sha512-QQA2jHzvEqtfhcuyylVvC1aEC4XkcMFuvKpIwRWuE2l/FYWEkkDdFobPlU4CpKPYjSbl8/AKzdfkztIAL4pBBQ==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-02.png": { "integrity": "sha512-7kpidavE+a+AkmIX87uhdm3zeYNksOee0wANnd9A0ECKDPWUT7dl9NzU552BnzEtFDUu58dg38SDDx9mE+vohw==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-03.png": { "integrity": "sha512-YUfJpsaZEkZ3L+OWvv4mXE3Ru78hDC9pP4PIo8RO3z9niGe8d8wA8rf03q57Nsk2JZRblPUJ374K8o4rbLp8gw==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-VIP-01.png": { "integrity": "sha512-oyvTeb/yI9s/Tz3+yNiraZofxg1C88W2tUeapf0rmwtB+BfK+qefCMIm6wXv4l/RV81kJ0jlUUEoiFcp18qEGw==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-VIP-02.png": { "integrity": "sha512-Rx+uDXiwR5OrFcVzvaBp8xbJXN+jFnYmuRLSGG8vfNyx1ux74EMQeZmeMwkTUlYuIbRi2UNCGJffguXKzUovew==", "contentType": "image/png" },
+  "https://obj.cdn.theifriend.com/the-town/package-VIP-03.png": { "integrity": "sha512-5YLqjD60mCZ1fiPGUKJiG8MRGnpwH5tsUdJJqUXAPwSgE//EEp7GnkSz+cNlj7lBnbfu7PI5EBUy4cynTuWRIA==", "contentType": "image/png" },
+  "https://thumbnail.cdn.theifriend.com/small/experiences/photos/640b511ccc3a8454764909.PNG": { "integrity": "sha512-ErldTEbybfmRUiBw1mYFAivv4rSghd5sK0AGP6hshwSxbhyw0ut9+PkyuRCWf3HpkSg7QdQUct9bNkUd3NBY8Q==", "contentType": "image/png" },
+  "version": 1
+}
