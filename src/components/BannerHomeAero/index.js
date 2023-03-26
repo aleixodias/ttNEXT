@@ -24,17 +24,14 @@ export default function BannerHomeAero(){
   }, [])
 
   return (
-    <>
-    {widthWindow}
     <Image
-          placeholder="blur"
-          quality={80}
-          width={1440}
-          height={480}
-          src={widthWindow < 768 ? BannerAeroImageMobile : BannerAeroImageDesktop }
-          alt="The Town São Paulo 2023"
-          className={styles.imageBannerAero}
-        />
-    </>
+      placeholder="blur"
+      quality={80}
+      width={1440}
+      height={480}
+      src={widthWindow < 768 ? BannerAeroImageMobile : BannerAeroImageDesktop }
+      alt="The Town São Paulo 2023"
+      className={styles.imageBannerAero}
+    />
   )
 }

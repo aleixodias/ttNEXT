@@ -24,17 +24,14 @@ export default function BannerHomeHero(){
   }, [])
 
   return (
-    <>
-    {widthWindow}
     <Image
-          placeholder="blur"
-          quality={80}
-          width={1440}
-          height={480}
-          src={widthWindow < 768 ? BannerHomeImageMobile : BannerHomeImageDesktop }
-          alt="The Town São Paulo 2023"
-          className={styles.imageBannerHome}
-        />
-    </>
+      placeholder="blur"
+      quality={80}
+      width={1440}
+      height={480}
+      src={widthWindow < 768 ? BannerHomeImageMobile : BannerHomeImageDesktop }
+      alt="The Town São Paulo 2023"
+      className={styles.imageBannerHome}
+    />
   )
 }
