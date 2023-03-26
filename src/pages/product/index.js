@@ -12,6 +12,7 @@ export default function Products(){
 		</Head>
 		<main className={styles.main}>
 		<p>PRODUTOS</p>
+		<h1>Modelo de página para produtos</h1>
 		</main>
 		</>
 	)
