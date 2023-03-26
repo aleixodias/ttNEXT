@@ -59,7 +59,7 @@ export default function StepByStep({TitleContent, SubTitleContent}){
         {Steps.map((item) => {
           return (
             <>
-            <div className={styles.stepItem}>
+            {/* <div className={styles.stepItem}> */}
             <Image
                 width={80}
                 height={80}
@@ -71,7 +71,7 @@ export default function StepByStep({TitleContent, SubTitleContent}){
                 className={`${styles.imageResponsive} ${styles.imageTicket}`}
               />
               <p>{item.stepContent}<br/><small>{item.StepContentSmall && item.StepContentSmall}</small></p>
-              </div>
+            {/* </div> */}
             </>
           )
         })}

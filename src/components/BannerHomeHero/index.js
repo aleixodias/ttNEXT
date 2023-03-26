@@ -7,7 +7,7 @@ import BannerHomeImageMobile from  'https://obj.cdn.theifriend.com/the-town/img-
 
 export default function BannerHomeHero(){
 
-  const [widthWindow, setWidth] = useState(1440)
+  const [widthWindow, setWidth] = useState(0)
 
   useEffect(() => {
     const updateWindowDimensions = () => {
@@ -15,6 +15,8 @@ export default function BannerHomeHero(){
     }
 
     window.addEventListener("resize", updateWindowDimensions)
+    updateWindowDimensions()
+
   }, [])
 
   return (
