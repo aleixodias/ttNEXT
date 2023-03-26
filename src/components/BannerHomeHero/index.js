@@ -21,6 +21,7 @@ export default function BannerHomeHero(){
     <Image
           priority
           quality={80}
+          width={1920}
           height={480}
           src={widthWindow < 768 ? BannerHomeImageMobile : BannerHomeImageDesktop }
           alt="The Town São Paulo 2023"
