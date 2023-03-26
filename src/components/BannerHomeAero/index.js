@@ -21,7 +21,7 @@ export default function BannerHomeAero(){
     <Image
           priority
           quality={80}
-          width={1920}
+          width={widthWindow}
           height={480}
           src={widthWindow < 768 ? BannerAeroImageMobile : BannerAeroImageDesktop }
           alt="The Town São Paulo 2023"
