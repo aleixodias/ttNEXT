@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import styles from './styles.module.css'
 
@@ -7,7 +7,7 @@ import BannerAeroImageMobile from  'https://obj.cdn.theifriend.com/the-town/img-
 
 export default function BannerHomeAero(){
 
-  const [widthWindow, setWidth] = useState(0)
+  const [widthWindow, setWidth] = useState(1440)
 
   useEffect(() => {
     const updateWindowDimensions = () => {
@@ -15,9 +15,11 @@ export default function BannerHomeAero(){
     }
 
     window.addEventListener("resize", updateWindowDimensions)
-  }, [setWidth])
+  }, [])
 
   return (
+    <>
+    {widthWindow}
     <Image
           priority
           quality={80}
@@ -26,5 +28,6 @@ export default function BannerHomeAero(){
           alt="The Town São Paulo 2023"
           className={styles.imageBannerAero}
         />
+    </>
   )
 }
