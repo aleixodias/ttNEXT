@@ -5,6 +5,8 @@ import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Analytics } from '@vercel/analytics/react';
+
 
 import logoBeFly from './../images/logoBeflytravel.png'
 
@@ -43,7 +45,8 @@ export default function App({ Component, pageProps }) {
           </div>
         </nav>
       </section>
-    <Component {...pageProps}/>
+      <Component {...pageProps}/>
+      <Analytics />
     </main>
     </>
   )
