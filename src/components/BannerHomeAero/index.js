@@ -7,15 +7,19 @@ import BannerAeroImageMobile from  'https://obj.cdn.theifriend.com/the-town/img-
 
 export default function BannerHomeAero(){
 
-  const [widthWindow, setWidth] = useState(0)
+  const [widthWindow, setWidth] = useState(14400)
 
   useEffect(() => {
     const updateWindowDimensions = () => {
-      setWidth(window.innerWidth)
-    }
+      const newWidth = window.innerWidth;
 
-    window.addEventListener("resize", updateWindowDimensions)
+      setWidth(newWidth)
+    }
     updateWindowDimensions()
+    window.addEventListener("resize", updateWindowDimensions)
+    return () => window.removeEventListener("resize", updateWindowDimensions)
+
+
 
   }, [])
 
@@ -23,8 +27,9 @@ export default function BannerHomeAero(){
     <>
     {widthWindow}
     <Image
-          priority
+          placeholder="blur"
           quality={80}
+          width={1440}
           height={480}
           src={widthWindow < 768 ? BannerAeroImageMobile : BannerAeroImageDesktop }
           alt="The Town São Paulo 2023"
