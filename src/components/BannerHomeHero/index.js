@@ -18,14 +18,15 @@ export default function BannerHomeHero(){
   }, [setWidth])
 
   return (
+    <>
     <Image
           priority
           quality={80}
-          width={widthWindow}
           height={480}
           src={widthWindow < 768 ? BannerHomeImageMobile : BannerHomeImageDesktop }
           alt="The Town São Paulo 2023"
           className={styles.imageBannerHome}
         />
+    </>
   )
 }

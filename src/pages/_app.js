@@ -1,11 +1,12 @@
+import { Analytics } from '@vercel/analytics/react'
+import { Montserrat } from 'next/font/google'
+
 import '@/styles/globals.css'
 import styles from '@/styles/Home.module.css'
 
-import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Analytics } from '@vercel/analytics/react';
 
 
 import logoBeFly from './../images/logoBeflytravel.png'
@@ -45,8 +46,8 @@ export default function App({ Component, pageProps }) {
           </div>
         </nav>
       </section>
-      <Analytics />
       <Component {...pageProps}/>
+      <Analytics />
     </main>
     </>
   )
