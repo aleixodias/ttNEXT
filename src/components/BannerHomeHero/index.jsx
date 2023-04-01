@@ -28,7 +28,7 @@ export default function BannerHomeHero(){
       placeholder="blur"
       loading="lazy"
       quality={80}
-      // width={widthWindow}
+      width={widthWindow}
       height={480}
       src={widthWindow < 768 ? BannerHomeImageMobile : BannerHomeImageDesktop }
       alt="The Town São Paulo 2023"
