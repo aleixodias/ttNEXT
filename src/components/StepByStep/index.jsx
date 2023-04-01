@@ -18,6 +18,7 @@ export default function StepByStep({ TitleContent, SubTitleContent }) {
               width={80}
               height={80}
               quality={80}
+              loading="lazy"
               src={item.imageStepURL}
               alt={item.stepContent}
               title={item.stepContent}
