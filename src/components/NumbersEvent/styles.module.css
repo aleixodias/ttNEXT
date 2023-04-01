@@ -1,8 +1,8 @@
 .mainFull {
   width: 100%;
   background-color: rgb(167 239 255);
-
 }
+
 .main {
   display: flex;
   flex-wrap: wrap;

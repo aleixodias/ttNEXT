@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { ticketTypes } from "./data.ts";
-import styles from "./styles.module.css";
+import Image from "next/image"
+import { ticketTypes } from "./data.ts"
+import styles from "./styles.module.css"
 
 export default function PackagesDay() {
   return (

@@ -1,9 +1,8 @@
-import Image from "next/image";
+import Image from "next/image"
 import { Steps } from './data.ts'
-import styles from "./styles.module.css";
+import styles from "./styles.module.css"
 
 export default function StepByStep({ TitleContent, SubTitleContent }) {
-
   return (
     <>
       <div>

@@ -1,5 +1,4 @@
 import styles from "./styles.module.css";
-
 import logoBeFly from "../../images/logoBeflytravel.png";
 import logoIFriend from "../../images/logoIFriend.svg";
 import Image from "next/image";

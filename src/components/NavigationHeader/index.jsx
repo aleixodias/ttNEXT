@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
-import logoBeFly from "../../images/logoBeflytravel.png";
-import styles from "./style.module.css";
+import Link from "next/link"
+import Image from "next/image"
+import logoBeFly from "../../images/logoBeflytravel.png"
+import styles from "./style.module.css"
 
 export default function NavigationHeader() {
   return (

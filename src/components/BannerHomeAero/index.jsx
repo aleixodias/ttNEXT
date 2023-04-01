@@ -19,8 +19,6 @@ export default function BannerHomeAero(){
     window.addEventListener("resize", updateWindowDimensions)
     return () => window.removeEventListener("resize", updateWindowDimensions)
 
-
-
   }, [])
 
   return (
