@@ -11,9 +11,10 @@ export default function Footer() {
         <section className={styles.main}>
           <div className={styles.left}>
             <Image
+              quality={80}
+              loading="lazy"
               width={117}
               height={34}
-              quality={80}
               src={logoBeFly}
               alt="Logo BeFly Travel"
             />
@@ -24,9 +25,10 @@ export default function Footer() {
           </div>
           <div className={styles.right}>
             <Image
+              quality={80}
+              loading="lazy"
               width={117}
               height={34}
-              quality={80}
               src={logoIFriend}
               alt="Logo iFriend Travel"
             />

@@ -26,6 +26,7 @@ export default function BannerHomeHero(){
   return (
     <Image
       placeholder="blur"
+      loading="lazy"
       quality={80}
       width={1440}
       height={480}
