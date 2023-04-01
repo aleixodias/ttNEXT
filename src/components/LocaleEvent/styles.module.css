@@ -1,0 +1,35 @@
+.main {
+  background-color: rgb(211, 247, 255);
+  text-align: center;
+  padding: 8rem;
+}
+
+@media(max-width: 1024px) {
+  .main {
+    padding: 2rem 1rem;
+  }
+
+  .localeTitle{
+    font-size: 7vw !important;
+    opacity: 0.3;
+    margin-bottom: 3rem;
+    margin-bottom: 1rem !important;
+  }
+
+  .localeDescription{
+    font-size:4vw !important;
+  }
+}
+
+.localeTitle{
+  font-size: 6rem;
+  opacity: 0.3;
+  margin-bottom: 3rem;
+}
+
+.localeDescription{
+  font-size: 1.5rem;
+  opacity: 0.3;
+  font-weight: 800;
+  letter-spacing: 1px;
+}

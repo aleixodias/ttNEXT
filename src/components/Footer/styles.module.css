@@ -1,0 +1,47 @@
+.mainFull {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1440px;
+  gap: 16px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+@media(max-width:768px) {
+  .main {
+    justify-content: center;
+  }
+
+  .mail {
+    font-size: 90% !important;
+  }
+
+  .left,
+  .middle,
+  .right {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.middle {
+  text-align: center;
+}
+
+.title_bold {
+  font-weight: 700;
+  color: #54555a;
+  font-size: 1rem;
+}
+
+.mail {
+  font-size: .875rem;
+}

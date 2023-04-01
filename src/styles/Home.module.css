@@ -8,32 +8,6 @@
   margin: 0 auto;
 }
 
-.Navigation {
-  width: 100%;
-  background-color: var(--white);
-  padding: 1.5rem;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navigationLinks {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.navigationLinks a {
-  transition: all 0.4s;
-}
-
-.navigationLinks :hover {
-  color: var(--blue-500);
-}
-
 /* Media Queries */
 @media(max-width: 1024px) {
   .main {

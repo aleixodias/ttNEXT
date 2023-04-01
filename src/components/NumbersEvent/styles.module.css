@@ -1,0 +1,41 @@
+.mainFull {
+  width: 100%;
+  background-color: rgb(167 239 255);
+
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1440px;
+  gap: 16px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.event_item {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width:768px){
+  .event_item {
+    flex: 1 1 300px;
+  }
+}
+
+.title{
+  font-size: 4rem;
+  opacity: 0.3;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.3;
+}
