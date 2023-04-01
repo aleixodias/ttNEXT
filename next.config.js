@@ -8,7 +8,7 @@ const nextConfig = {
   //   domains: ['https://obj.cdn.theifriend.com'],
   // },
   images: {
-    minimumCacheTTL: 120,
+    minimumCacheTTL: 1200,
     remotePatterns: [
       {
         protocol: 'https',
