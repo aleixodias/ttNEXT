@@ -7,7 +7,7 @@ import BannerAeroImageMobile from  'https://obj.cdn.theifriend.com/the-town/img-
 
 export default function BannerHomeAero(){
 
-  const [widthWindow, setWidth] = useState(1440)
+  const [widthWindow, setWidth] = useState(425)
 
   useEffect(() => {
     const updateWindowDimensions = () => {
